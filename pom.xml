@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.backend.CineFlow</groupId>
-	<artifactId>CineFlow</artifactId>
+	<artifactId>CineFlow_Cartelera</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
