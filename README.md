@@ -1,3 +1,48 @@
+# CineFlow - Cartelera (Microservicio)
+
+Descripción
+-----------
+Gestiona películas, funciones y butacas. Provee endpoints para consultar cartelera y disponibilidad.
+
+Ejecutar localmente
+-------------------
+Requisitos: Java 17, Maven y MySQL.
+
+```bash
+cd CineFlow-Cartelera
+./mvnw spring-boot:run
+```
+
+Propiedades
+- Puerto: `8082`.
+- Swagger UI: `http://localhost:8082/swagger-ui.html`
+
+Tests
+-----
+```bash
+./mvnw test
+```
+# CineFlow-Cartelera
+
+Microservicio de cartelera: contiene entidades, repositorios y endpoints para películas, salas y funciones.
+
+Ejecutar:
+
+```
+cd CineFlow-Cartelera
+./mvnw spring-boot:run
+```
+
+Construir:
+
+```
+./mvnw clean package
+```
+
+Notas:
+
+- Configuración en `src/main/resources/application.properties`.
+- Contiene inicializador de datos: `DataInitializer`.
 # MS-Cartelera (CineFlow)
 
 > Microservicio `MS-Cartelera` para gestionar catálogo de películas, salas, funciones y butacas.
